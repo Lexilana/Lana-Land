@@ -1,0 +1,242 @@
+/***** BASE STYLES *****/
+
+@font-face {
+	font-family: autumnchant; 
+	src: url('autumnchant.otf') format('opentype');
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #828282;
+}
+
+a {
+	color: #70b595;
+	text-decoration: none;
+}
+
+#about, #work {
+	height: 450px;
+}
+
+#contact {
+    height: 600px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+.forth-width {
+    float: left;
+    width: 300px;
+}
+
+
+
+/***** HEADER *****/
+
+header {
+	background-image: url("../img/lanaland.png");
+	background-size: cover;
+	height: 1000px;
+}
+
+(out) header h1{
+	color: #cdf9ff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	padding: 30px 0;
+}
+
+
+nav{
+	padding: 30px 40px;
+	width:100%;
+	text-align: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #828282;
+	font-size: 18px;
+	padding-left: 80px;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.welcome{
+	width: 100%;
+	text-align: right;
+	margin-top: 170px;
+}
+
+header h2{
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	line-height: 80px;
+	padding-right: 260px;
+}
+
+header h3{
+	color: #ffffff;
+	font-size: 80px;
+	line-height: 80px;
+	padding-right: 95px;
+}
+
+header img{
+	clear: both;
+	padding-top: 80px;
+	margin-left: -50px;
+}
+
+
+
+/***** ABOUT *****/
+
+
+#title-about{
+	color: #20b2aa;
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	font-weight: 1200;
+	width: 100%;
+	text-align: right;
+	padding-right: 100px;
+}	
+
+
+#about p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 21px;
+	margin-top: 10px;
+	line-height: 40px;
+	text-align: center;
+	float: right;
+	padding-right: 155px;
+}
+
+#note p{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+
+/***** WORK *****/
+
+#work {
+	text-align: center;
+	background-color: #f6fbf9;
+}
+
+#work .full-width {
+	padding: 50px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+#work h3 {
+	font-size: 24px;
+	margin: 0 auto;
+	width: 190px;
+}
+
+#work p{
+	color: #2b2b2b;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 35px;
+}
+
+
+/***** CONTACT *****/
+
+
+#contact .full-width {
+	padding: 60px 0;
+}
+
+.contact-img{
+	
+}
+
+.contact-info{
+	width: 500px;
+	float: right;
+}
+
+#contact h2, #contact h3, #email-header, #socialmedia-header, #contact ul{
+	padding-left: 20px;
+}
+
+#envelope {
+	padding: 0 10px 0 20px;
+}
+
+
+#email-header{
+	margin: 20px 0 5px 0;
+}
+
+#socialmedia-header {
+	font-weight: bold;
+	margin: 40px 0 0 0;
+}
+
+#mail a{
+	font-size: 28px;
+}
+
+
+#contact ul{
+	list-style:none;
+}
+
+#contact ul li{
+	display: inline-block;
+}
+
+#contact ul img{
+	font-size: 32px;
+	padding-right: 48px;
+}
